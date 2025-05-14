@@ -1,26 +1,35 @@
 ---
-title: "Hi, I'm [Your Name Here]"
+title: "Hi, I'm Miguel Lau"
 ---
 
 
 ::: {.columns}
 ::: {.column width="30%"}
-![](https://placehold.co/530x530?text=images/headshot.jpg){width=100% style="border-radius: 50%;"}
+
+![](https://placehold.co/530x530?text=images/profile.png){width=100% style="border-radius: 50%;"}
 :::
 ::: {.column width="70%" style="padding-left: 3rem;"}
-I'm a [your profession or area of focus]. I specialize in transforming complex information into clear, engaging, and actionable insights.
+I am an entrepreneur and business owner. I specialize in building community-centered experiences and leading operations that turn vision into reality. Through hands-on management, strategic marketing, and a passion for service, I’ve grown a specialty coffee shop into more than just a place to grab a drink—it's a welcoming space where people connect, relax, and feel cared for.
 :::
 :::
 
 ## About Me
 
-I hold a <span class="highlight">[Your Degree or Current Program]</span> from [Your Institution].
+Hi, I’m the proud co-owner of Margin Cafe Coffee Roasters, where I combine my love for coffee, community, and entrepreneurship. With a strong focus on quality and customer experience, I’ve built a space where people can enjoy great coffee and feel genuinely welcome.
+
+I hold a degree in Business Administration and Marketing Management from Cal Poly Pomona, which has equipped me with the skills to grow and lead a successful business—from strategy and operations to branding and customer engagement.
+
+Outside of running my business, I’m passionate about cars, road trips, and exploring nature—whether that means winding drives through scenic routes or discovering a hidden hiking trail. These experiences fuel my creativity and give me a fresh perspective to bring back to the café.
+
+At my core, I’m someone who cares deeply about people. Whether it's crafting the perfect cup of coffee, offering a warm conversation, or leading a team, I find purpose in creating environments where others feel supported, seen, and taken care of.
+
+
 
 
 
 ## Let's Connect
 
-You can [email me](mailto:you@example.com) or connect on [LinkedIn](https://www.linkedin.com/in/your-profile).
+You can  connect on [LinkedIn](https://www.linkedin.com/in/miguel-lau-480ab0328).
 
 ---
 

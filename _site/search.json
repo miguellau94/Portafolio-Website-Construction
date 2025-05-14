@@ -2,22 +2,155 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hi, I’m [Your Name Here]",
+    "title": "Hi, I’m Miguel Lau",
     "section": "",
-    "text": "I’m a [your profession or area of focus]. I specialize in transforming complex information into clear, engaging, and actionable insights."
+    "text": "I am an entrepreneur and business owner. I specialize in building community-centered experiences and leading operations that turn vision into reality. Through hands-on management, strategic marketing, and a passion for service, I’ve grown a specialty coffee shop into more than just a place to grab a drink—it’s a welcoming space where people connect, relax, and feel cared for."
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
-    "title": "Hi, I’m [Your Name Here]",
+    "title": "Hi, I’m Miguel Lau",
     "section": "About Me",
-    "text": "About Me\nI hold a [Your Degree or Current Program] from [Your Institution]."
+    "text": "About Me\nHi, I’m the proud co-owner of Margin Cafe Coffee Roasters, where I combine my love for coffee, community, and entrepreneurship. With a strong focus on quality and customer experience, I’ve built a space where people can enjoy great coffee and feel genuinely welcome.\nI hold a degree in Business Administration and Marketing Management from Cal Poly Pomona, which has equipped me with the skills to grow and lead a successful business—from strategy and operations to branding and customer engagement.\nOutside of running my business, I’m passionate about cars, road trips, and exploring nature—whether that means winding drives through scenic routes or discovering a hidden hiking trail. These experiences fuel my creativity and give me a fresh perspective to bring back to the café.\nAt my core, I’m someone who cares deeply about people. Whether it’s crafting the perfect cup of coffee, offering a warm conversation, or leading a team, I find purpose in creating environments where others feel supported, seen, and taken care of."
   },
   {
     "objectID": "index.html#lets-connect",
     "href": "index.html#lets-connect",
-    "title": "Hi, I’m [Your Name Here]",
+    "title": "Hi, I’m Miguel Lau",
     "section": "Let’s Connect",
-    "text": "Let’s Connect\nYou can email me or connect on LinkedIn.\n\nWelcome to my portfolio."
+    "text": "Let’s Connect\nYou can connect on LinkedIn.\n\nWelcome to my portfolio."
+  },
+  {
+    "objectID": "marketing-analytics.html",
+    "href": "marketing-analytics.html",
+    "title": "Marketing Analytics",
+    "section": "",
+    "text": "Below are selected projects that highlight my experience applying marketing analytics to the day-to-day and strategic operations of a specialty coffee shop. These examples demonstrate how I use data-driven insights to improve customer engagement, optimize promotional efforts, and grow the business.\nFrom tracking in-store promotions to analyzing social media performance and customer behavior, each project reflects my ability to turn real-world marketing data into actionable strategies that enhance both brand presence and profitability."
+  },
+  {
+    "objectID": "marketing-analytics.html#what-youll-find",
+    "href": "marketing-analytics.html#what-youll-find",
+    "title": "Marketing Analytics",
+    "section": "What You’ll Find",
+    "text": "What You’ll Find\n\nCampaign Performance Analysis: Measuring the impact of seasonal promotions, local ads, and social media campaigns on foot traffic and sales.\nData Visualization: Building intuitive dashboards to monitor daily performance metrics, customer trends, and marketing ROI.\nChannel & Offer Attribution: Identifying which marketing channels (e.g., Instagram, Google Maps, email) and offers are driving the most customer engagement and repeat visits.\nCustomer & Market Insights: Using POS data, survey feedback, and web analytics to better understand buying habits, peak times, and menu preferences.\n\n\n\nlibrary(ggplot2)\n\ndata &lt;- data.frame(\n  Channel = c(\"Instagram\", \"Google Maps\", \"Email Newsletter\", \"In-store Posters\"),\n  Revenue = c(4200, 3100, 1800, 950)\n)\n\nggplot(data, aes(x = reorder(Channel, Revenue), y = Revenue, fill = Channel)) +\n  geom_col(show.legend = FALSE) +\n  coord_flip() +\n  labs(title = \"Campaign Performance by Channel\",\n       x = \"Marketing Channel\",\n       y = \"Revenue Generated ($)\") +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\nlibrary(ggplot2)\n\nweeks &lt;- c(\"Week 1\", \"Week 2\", \"Week 3\", \"Week 4\")\ntraffic &lt;- c(180, 230, 210, 275)\n\ndata &lt;- data.frame(Week = weeks, Customers = traffic)\n\nggplot(data, aes(x = Week, y = Customers)) +\n  geom_line(color = \"forestgreen\", size = 1.2) +\n  geom_point(color = \"darkgreen\", size = 3) +\n  labs(title = \"Weekly Foot Traffic After Instagram Promotions\",\n       x = \"Week\",\n       y = \"Customer Count\") +\n  theme_minimal()\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\n`geom_line()`: Each group consists of only one observation.\nℹ Do you need to adjust the group aesthetic?"
+  },
+  {
+    "objectID": "resume/Resume.html",
+    "href": "resume/Resume.html",
+    "title": "Professional Summary",
+    "section": "",
+    "text": "Professional Summary\nMotivated and detail-oriented marketing and analytics professional with a strong background in data interpretation, campaign strategy, and digital tools. Skilled in turning insights into action and communicating value across business teams.\n\n\nTechnical Skills\n\nProgramming Languages: R, Python, SQL, etc.\n\nWeb Technologies: HTML, CSS/SCSS, Quarto, CMS, Google Analytics, etc.\n\n\n\nEducation\n\n\n# A tibble: 2 × 5\n  what                     when                            with      where why  \n  &lt;chr&gt;                    &lt;chr&gt;                           &lt;chr&gt;     &lt;chr&gt; &lt;lis&gt;\n1 Master of [Your Field]   20XX – Expected Graduation 20XX [Your Sc… [You… &lt;chr&gt;\n2 Bachelor of [Your Field] 20XX – 20XX                     [Your Sc… [You… &lt;chr&gt;\n\n\n\n\nWork Experience\n\n\n# A tibble: 2 × 5\n  what      when                    with                         where why   \n  &lt;chr&gt;     &lt;chr&gt;                   &lt;chr&gt;                        &lt;chr&gt; &lt;list&gt;\n1 Job Title Month YYYY – Month YYYY Company or Organization Name &lt;NA&gt;  &lt;list&gt;\n2 Job Title Month YYYY – Month YYYY Another Company or Team      &lt;NA&gt;  &lt;list&gt;"
+  },
+  {
+    "objectID": "listings/05-social-media-engagement.html",
+    "href": "listings/05-social-media-engagement.html",
+    "title": "Social Media Engagement Analysis",
+    "section": "",
+    "text": "Overview\nThis analysis examined engagement metrics across multiple social media platforms to identify content trends, audience preferences, and posting strategies that drive performance.\n\n\n\n\nLearning Outcomes\n\nAggregate and clean social media data.\n\nIdentify high-performing content formats.\n\nUnderstand audience behavior and peak times.\n\nSupport social strategy with data-backed recommendations.\n\nVisualize results in an executive summary.\n\n\n\n\nKey Skills Gained\n\nSocial analytics\n\nPlatform metric APIs\n\nContent performance tracking\n\nAudience insights\n\nStrategic planning"
+  },
+  {
+    "objectID": "listings/03-customer-segmentation-clustering.html",
+    "href": "listings/03-customer-segmentation-clustering.html",
+    "title": "Customer Segmentation Using Clustering",
+    "section": "",
+    "text": "Overview\nIn this analysis, customer data was segmented using clustering algorithms to identify meaningful groups. These segments informed targeting strategies and personalization efforts.\n\n\n\n\nLearning Outcomes\n\nClean and prepare customer-level data.\n\nApply clustering techniques to group similar customers.\n\nInterpret clusters to define marketing personas.\n\nRecommend tailored messaging strategies.\n\nSupport targeted campaign development.\n\n\n\n\nKey Skills Gained\n\nK-means clustering\n\nData preprocessing\n\nCustomer profiling\n\nMarket segmentation strategy\n\nR or Python for machine learning"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Résumé",
+    "section": "",
+    "text": "Professional Summary\nResults-driven business owner and operations manager with over a decade of experience leading teams, optimizing business performance, and delivering exceptional customer service across the food service, retail, automotive, and manufacturing sectors. Proven success as the owner and manager of a specialty coffee shop, overseeing daily operations, financial planning, staff development, inventory control, and marketing initiatives. Skilled in sales and account management with a strong track record of exceeding targets and building lasting client relationships. Adept at managing multimillion-dollar inventories, streamlining workflows, and improving quality standards in high-volume environments. Known for strategic thinking, hands-on leadership, and a passion for building strong teams and efficient, customer-focused businesses.\n\n\nSkills\n\nBusiness & Financial Operations\n\nFinancial Planning\nAccounting\nAccount Management\nInventory Control\nCost Analysis\n\n\n\nLeadership & Management\n\nTeam Leadership\nTeam Management\nStaff Training & Development\nOperations Management\nQuality Assurance\nProduction Oversight\n\n\n\nSales & Customer Experience\n\nSales Management\nCustomer Service\nRelationship Building\nDeal Negotiation\n\n\n\nMarketing & Branding\n\nMarketing Strategy\nSocial Media Marketing\nBrand Development\nPromotional Campaigns # Education\n\n\n\n\n\n\n\n\n\nDegree\nYear\nInstitution\n\n\n\n\nBusiness Administration & Marketing Management\n2021 - 2025\nCalifornia Polytechnic State University Pomona\n\n\nBusiness Administration AS-T\n2019 - 2021\nPasadena City College\n\n\n\n\n\n\nWork Experience\n\nOwner and Manager\nMargin Cafe Coffee Roasters · Full-time\nSep 2022 – Present · 2 yrs 9 mos Diamond Bar, California, United States · Hybrid\nAs the owner of Margin Café, I oversee all aspects of the café’s operations, from daily management to long-term business strategy. Key responsibilities include:\n\nManaging inventory, supplier relationships, and financial planning to ensure profitability and quality.\nLeading a team, setting performance goals, training staff, and maintaining a positive work environment.\nDeveloping and updating the menu to align with customer preferences and market trends.\nExecuting marketing and promotional strategies to attract new customers and increase brand loyalty.\nCreating a welcoming atmosphere and ensuring every guest has an exceptional experience.\n\n\n\n\nAssistant Manager\nT&J Garden Supply · Full-time\nMar 2021 – May 2022 · 1 yr 3 mos\nLa Puente, California, United States · On-site\nAs Assistant Manager at T&J Garden Supply, I was responsible for overseeing daily store operations, with a focus on managing an inventory valued at over $500,000. Key responsibilities included:\n\nMaintaining optimal stock levels through regular inventory audits and timely restocking.\nAssisting in hiring, training, and supervising staff to ensure high standards of customer service.\nEnsuring the store was clean, organized, and visually appealing.\nHandling customer inquiries, resolving issues, and ensuring customer satisfaction.\nSupporting the Store Manager in achieving operational and financial goals.\n\n\n\n\nSales Manager and Account Manager\nJNB Motor Inc · Full-time\nNov 2015 – Jul 2019 · 3 yrs 9 mos\nAlhambra, California, United States · On-site\nSales Manager:\nLed and managed the dealership’s sales team to achieve monthly and annual revenue goals. Key responsibilities included:\n\nTraining and motivating sales staff to enhance product knowledge and sales performance.\nWorking directly with customers to provide excellent service, negotiate deals, and ensure satisfaction.\nMonitoring sales metrics and developing strategies to improve revenue and efficiency.\nCollaborating with the marketing team on promotions and campaigns.\nManaging vehicle inventory to align with customer demand and business targets.\n\nAccount Manager:\nOversaw all financial operations related to vehicle sales and supported seamless transaction processing. Key responsibilities included:\n\nProcessing customer payments, preparing invoices, and maintaining accurate financial records.\nEnsuring compliance with financial regulations and internal controls.\nTracking inventory costs and preparing regular financial performance reports.\nManaging relationships with banks and third-party financing vendors to streamline customer financing options."
+  },
+  {
+    "objectID": "listings/02-seo-benchmarking-analysis.html",
+    "href": "listings/02-seo-benchmarking-analysis.html",
+    "title": "SEO Benchmarking Analysis",
+    "section": "",
+    "text": "Overview\nThis project compared SEO performance across competitors, highlighting keyword gaps, backlink profiles, and content effectiveness. Insights were used to guide an improved content and SEO strategy.\n\n\n\n\nLearning Outcomes\n\nIdentify keyword opportunities through competitive research.\n\nTrack and compare domain authority and page rankings.\n\nRecommend on-page SEO improvements.\n\nDesign a data-driven SEO content strategy.\n\nVisualize competitor positioning.\n\n\n\n\nKey Skills Gained\n\nKeyword research\n\nWeb scraping & data cleaning\n\nSEO analysis tools\n\nData storytelling\n\nStrategy development"
+  },
+  {
+    "objectID": "listings/04-funnel-attribution-model.html",
+    "href": "listings/04-funnel-attribution-model.html",
+    "title": "Marketing Funnel Attribution Model",
+    "section": "",
+    "text": "Overview\nThis project developed a marketing attribution model to assign credit to touchpoints throughout the conversion journey. The insights supported channel optimization and budget reallocation.\n\n\n\n\nLearning Outcomes\n\nTrack multi-touch customer journeys.\n\nModel attribution using first-touch, last-touch, and linear approaches.\n\nVisualize funnel performance.\n\nQuantify channel impact on conversion.\n\nGuide future campaign investment decisions.\n\n\n\n\nKey Skills Gained\n\nAttribution modeling\n\nFunnel analysis\n\nData visualization\n\nCampaign performance analysis\n\nR or Python analytics pipelines"
+  },
+  {
+    "objectID": "listings/01-campaign-insights-dashboard.html",
+    "href": "listings/01-campaign-insights-dashboard.html",
+    "title": "Campaign Insights Dashboard",
+    "section": "",
+    "text": "Overview\nThis project involved building a dashboard to track and visualize marketing campaign performance. Metrics like click-through rate, conversion rate, and ROI were tracked across channels using R and Tableau.\n\n\n\n\nLearning Outcomes\n\nVisualize and monitor key marketing metrics.\n\nAnalyze performance trends across multiple campaigns.\n\nIdentify high- and low-performing segments.\n\nCommunicate insights through interactive visuals.\n\nDevelop data-informed recommendations.\n\n\n\n\nKey Skills Gained\n\nDashboard development\n\nCampaign analytics\n\nData wrangling in R\n\nTableau or R Shiny visualization\n\nPerformance measurement"
+  },
+  {
+    "objectID": "strategic-marketing.html",
+    "href": "strategic-marketing.html",
+    "title": "Strategic Marketing",
+    "section": "",
+    "text": "In this strategy, I focused on improving the overall customer experience at Margin Cafe Coffee Roasters by implementing service standards and training programs for staff. By emphasizing quality service and creating a welcoming atmosphere, we aimed to build brand loyalty and increase customer retention.\nSkills Demonstrated:\n\nCustomer Service Excellence: Established training programs to ensure high-quality customer interactions.\nTeam Coordination: Collaborated with staff to ensure consistent service delivery.\nFeedback Loop: Implemented systems for collecting customer feedback and improving the experience.\nBrand Loyalty: Developed strategies to enhance customer retention through personalized experiences."
+  },
+  {
+    "objectID": "strategic-marketing.html#project-title-1-strategic-campaign-planning",
+    "href": "strategic-marketing.html#project-title-1-strategic-campaign-planning",
+    "title": "Strategic Marketing",
+    "section": "[Project Title 1: Strategic Campaign Planning]",
+    "text": "[Project Title 1: Strategic Campaign Planning]\nIn this project, I led the development of a comprehensive marketing campaign for [product, service, or initiative]. From audience segmentation to messaging strategy, I managed the full lifecycle of the campaign, aligning it with business objectives and measurable KPIs.\nSkills Demonstrated:\n\nMarketing Strategy: Defined objectives and tactics for maximum impact.\nTeam Coordination: Oversaw collaboration across creative, data, and channel teams.\nPerformance Tracking: Implemented real-time metrics and post-campaign analysis.\nBrand Positioning: Ensured consistency across all touchpoints."
+  },
+  {
+    "objectID": "strategic-marketing.html#project-title-2-brand-audit-positioning",
+    "href": "strategic-marketing.html#project-title-2-brand-audit-positioning",
+    "title": "Strategic Marketing",
+    "section": "[Project Title 2: Brand Audit & Positioning]",
+    "text": "[Project Title 2: Brand Audit & Positioning]\nThis initiative involved conducting a full brand audit for [organization or brand], evaluating its current market perception, competitive landscape, and customer engagement. I synthesized insights into a refreshed brand strategy and visual identity recommendations.\nSkills Demonstrated:\n\nBrand Analysis: Audited messaging, tone, and visual identity.\nCompetitive Benchmarking: Evaluated brand positioning within the market.\nStrategic Communication: Developed new value propositions and storytelling elements.\nStakeholder Presentation: Delivered recommendations to senior leadership."
+  },
+  {
+    "objectID": "strategic-marketing.html#project-title-3-product-launch-go-to-market-plan",
+    "href": "strategic-marketing.html#project-title-3-product-launch-go-to-market-plan",
+    "title": "Strategic Marketing",
+    "section": "[Project Title 3: Product Launch Go-to-Market Plan]",
+    "text": "[Project Title 3: Product Launch Go-to-Market Plan]\nFor the release of [new product/service], I created a go-to-market (GTM) strategy from scratch. This included customer journey mapping, channel mix planning, and launch timeline coordination.\nSkills Demonstrated:\n\nGo-to-Market Strategy: Developed a clear launch roadmap aligned with buyer needs.\nIntegrated Marketing: Orchestrated email, paid ads, social, and on-site promotions.\nBudget Management: Allocated resources efficiently across tactics.\nLaunch Optimization: Tracked performance and refined tactics in real time.\n\nBelow is an embedded demonstration of the interactive report:"
+  },
+  {
+    "objectID": "strategic-marketing.html#project-title-4-client-consulting-campaign-optimization",
+    "href": "strategic-marketing.html#project-title-4-client-consulting-campaign-optimization",
+    "title": "Strategic Marketing",
+    "section": "[Project Title 4: Client Consulting & Campaign Optimization]",
+    "text": "[Project Title 4: Client Consulting & Campaign Optimization]\nI collaborated with a client to assess and optimize their existing marketing efforts. Through audits, persona development, and campaign refinement, I helped improve ROI and audience engagement.\nSkills Demonstrated:\n\nClient Consulting: Provided clear insights and strategic guidance.\nPersona Development: Built target personas to guide messaging.\nCampaign Optimization: Identified and addressed areas of underperformance.\nData-Driven Adjustments: Leveraged analytics to refine tactics."
+  },
+  {
+    "objectID": "strategic-marketing.html#strategy-1-customer-experience-service-excellence",
+    "href": "strategic-marketing.html#strategy-1-customer-experience-service-excellence",
+    "title": "Strategic Marketing",
+    "section": "",
+    "text": "In this strategy, I focused on improving the overall customer experience at Margin Cafe Coffee Roasters by implementing service standards and training programs for staff. By emphasizing quality service and creating a welcoming atmosphere, we aimed to build brand loyalty and increase customer retention.\nSkills Demonstrated:\n\nCustomer Service Excellence: Established training programs to ensure high-quality customer interactions.\nTeam Coordination: Collaborated with staff to ensure consistent service delivery.\nFeedback Loop: Implemented systems for collecting customer feedback and improving the experience.\nBrand Loyalty: Developed strategies to enhance customer retention through personalized experiences."
+  },
+  {
+    "objectID": "strategic-marketing.html#strategy-2-menu-development-trend-adaptation",
+    "href": "strategic-marketing.html#strategy-2-menu-development-trend-adaptation",
+    "title": "Strategic Marketing",
+    "section": "Strategy 2: Menu Development & Trend Adaptation",
+    "text": "Strategy 2: Menu Development & Trend Adaptation\nFor the growth of Margin Cafe Coffee Roasters, I led a strategy to adapt our menu offerings to align with evolving market trends, customer preferences, and seasonal demands. This involved introducing new items and revamping existing ones based on customer feedback and competitive analysis.\nSkills Demonstrated:\n\nMarket Research: Analyzed customer preferences and market trends to identify key offerings.\nProduct Innovation: Developed new menu items that cater to current coffee and food trends.\nCustomer-Centric Menu Design: Tailored the menu to meet the needs of diverse customer segments.\nSeasonal Adjustments: Introduced limited-time offerings to drive sales during peak seasons."
+  },
+  {
+    "objectID": "strategic-marketing.html#strategy-3-digital-marketing-community-engagement",
+    "href": "strategic-marketing.html#strategy-3-digital-marketing-community-engagement",
+    "title": "Strategic Marketing",
+    "section": "Strategy 3: Digital Marketing & Community Engagement",
+    "text": "Strategy 3: Digital Marketing & Community Engagement\nTo increase visibility and brand awareness, I implemented a digital marketing strategy for Margin Café Coffee Roasters. The strategy leveraged social media platforms, influencer partnerships, and email campaigns to engage with customers both online and offline.\nSkills Demonstrated:\n\nSocial Media Strategy: Developed content calendars and strategies for Instagram, Facebook, and other platforms.\nCommunity Engagement: Built relationships with local influencers and community groups to promote the café.\nEmail Marketing: Created targeted email campaigns that promoted special offers and events.\nPerformance Metrics: Tracked campaign success using analytics to continuously refine strategies."
+  },
+  {
+    "objectID": "strategic-marketing.html#strategy-4-local-partnerships-events",
+    "href": "strategic-marketing.html#strategy-4-local-partnerships-events",
+    "title": "Strategic Marketing",
+    "section": "Strategy 4: Local Partnerships & Events",
+    "text": "Strategy 4: Local Partnerships & Events\nI established local partnerships and organized events to promote Margin Café Coffee Roasters within the community. This strategy aimed to increase foot traffic and foster a sense of community around the café, ultimately boosting sales and brand recognition.\nSkills Demonstrated:\n\nPartnership Development: Identified and forged partnerships with local businesses and events.\nEvent Planning: Organized pop-ups, tastings, and other events to drive brand engagement.\nCommunity Engagement: Created a sense of local pride and ownership around the café.\nBrand Visibility: Increased foot traffic and sales through strategic event marketing."
+  },
+  {
+    "objectID": "strategic-marketing.html#strategy-5-operational-efficiency-cost-management",
+    "href": "strategic-marketing.html#strategy-5-operational-efficiency-cost-management",
+    "title": "Strategic Marketing",
+    "section": "Strategy 5: Operational Efficiency & Cost Management",
+    "text": "Strategy 5: Operational Efficiency & Cost Management\nTo ensure profitability and sustainability, I led efforts to streamline operations at Margin Café Coffee Roasters. This included refining inventory management, optimizing supplier relationships, and improving cost efficiency without compromising product quality.\nSkills Demonstrated:\n\nInventory Management: Developed strategies for efficient inventory control to reduce waste.\nSupplier Relations: Negotiated better pricing and terms with coffee bean suppliers.\nCost Optimization: Identified areas for cost savings while maintaining product standards.\nProcess Improvement: Implemented new workflows to improve operational efficiency."
   }
 ]

@@ -2,59 +2,67 @@
 title: "Strategic Marketing"
 ---
 
-Below are selected projects that showcase my work in strategic marketing, campaign development, and brand management. These examples highlight how I apply leadership, data-informed decision making, and creative direction to drive marketing success.
+## Strategy 1: Customer Experience & Service Excellence
 
-## [Project Title 1: Strategic Campaign Planning]
-
-In this project, I led the development of a comprehensive marketing campaign for **[product, service, or initiative]**. From audience segmentation to messaging strategy, I managed the full lifecycle of the campaign, aligning it with business objectives and measurable KPIs.
+In this strategy, I focused on improving the overall customer experience at **Margin Cafe Coffee Roasters** by implementing service standards and training programs for staff. By emphasizing quality service and creating a welcoming atmosphere, we aimed to build brand loyalty and increase customer retention.
 
 **Skills Demonstrated:**
 
-- **Marketing Strategy:** Defined objectives and tactics for maximum impact.
-- **Team Coordination:** Oversaw collaboration across creative, data, and channel teams.
-- **Performance Tracking:** Implemented real-time metrics and post-campaign analysis.
-- **Brand Positioning:** Ensured consistency across all touchpoints.
+- **Customer Service Excellence:** Established training programs to ensure high-quality customer interactions.
+- **Team Coordination:** Collaborated with staff to ensure consistent service delivery.
+- **Feedback Loop:** Implemented systems for collecting customer feedback and improving the experience.
+- **Brand Loyalty:** Developed strategies to enhance customer retention through personalized experiences.
 
 ---
 
-## [Project Title 2: Brand Audit & Positioning]
+## Strategy 2: Menu Development & Trend Adaptation
 
-This initiative involved conducting a full brand audit for **[organization or brand]**, evaluating its current market perception, competitive landscape, and customer engagement. I synthesized insights into a refreshed brand strategy and visual identity recommendations.
+For the growth of **Margin Cafe Coffee Roasters**, I led a strategy to adapt our menu offerings to align with evolving market trends, customer preferences, and seasonal demands. This involved introducing new items and revamping existing ones based on customer feedback and competitive analysis.
 
 **Skills Demonstrated:**
 
-- **Brand Analysis:** Audited messaging, tone, and visual identity.
-- **Competitive Benchmarking:** Evaluated brand positioning within the market.
-- **Strategic Communication:** Developed new value propositions and storytelling elements.
-- **Stakeholder Presentation:** Delivered recommendations to senior leadership.
+- **Market Research:** Analyzed customer preferences and market trends to identify key offerings.
+- **Product Innovation:** Developed new menu items that cater to current coffee and food trends.
+- **Customer-Centric Menu Design:** Tailored the menu to meet the needs of diverse customer segments.
+- **Seasonal Adjustments:** Introduced limited-time offerings to drive sales during peak seasons.
 
 ---
 
-## [Project Title 3: Product Launch Go-to-Market Plan]
+## Strategy 3: Digital Marketing & Community Engagement
 
-For the release of **[new product/service]**, I created a go-to-market (GTM) strategy from scratch. This included customer journey mapping, channel mix planning, and launch timeline coordination.
+To increase visibility and brand awareness, I implemented a **digital marketing strategy** for **Margin Café Coffee Roasters**. The strategy leveraged social media platforms, influencer partnerships, and email campaigns to engage with customers both online and offline.
 
 **Skills Demonstrated:**
 
-- **Go-to-Market Strategy:** Developed a clear launch roadmap aligned with buyer needs.
-- **Integrated Marketing:** Orchestrated email, paid ads, social, and on-site promotions.
-- **Budget Management:** Allocated resources efficiently across tactics.
-- **Launch Optimization:** Tracked performance and refined tactics in real time.
-
-Below is an embedded demonstration of the interactive report:
-
-
-<iframe src="data/TRI SEO Comparison.html" width="100%" height="600px" style="border: none;"></iframe>
+- **Social Media Strategy:** Developed content calendars and strategies for Instagram, Facebook, and other platforms.
+- **Community Engagement:** Built relationships with local influencers and community groups to promote the café.
+- **Email Marketing:** Created targeted email campaigns that promoted special offers and events.
+- **Performance Metrics:** Tracked campaign success using analytics to continuously refine strategies.
 
 ---
 
-## [Project Title 4: Client Consulting & Campaign Optimization]
+## Strategy 4: Local Partnerships & Events
 
-I collaborated with a client to assess and optimize their existing marketing efforts. Through audits, persona development, and campaign refinement, I helped improve ROI and audience engagement.
+I established local partnerships and organized events to promote **Margin Café Coffee Roasters** within the community. This strategy aimed to increase foot traffic and foster a sense of community around the café, ultimately boosting sales and brand recognition.
 
 **Skills Demonstrated:**
 
-- **Client Consulting:** Provided clear insights and strategic guidance.
-- **Persona Development:** Built target personas to guide messaging.
-- **Campaign Optimization:** Identified and addressed areas of underperformance.
-- **Data-Driven Adjustments:** Leveraged analytics to refine tactics.
+- **Partnership Development:** Identified and forged partnerships with local businesses and events.
+- **Event Planning:** Organized pop-ups, tastings, and other events to drive brand engagement.
+- **Community Engagement:** Created a sense of local pride and ownership around the café.
+- **Brand Visibility:** Increased foot traffic and sales through strategic event marketing.
+
+---
+
+## Strategy 5: Operational Efficiency & Cost Management
+
+To ensure profitability and sustainability, I led efforts to streamline operations at **Margin Café Coffee Roasters**. This included refining inventory management, optimizing supplier relationships, and improving cost efficiency without compromising product quality.
+
+**Skills Demonstrated:**
+
+- **Inventory Management:** Developed strategies for efficient inventory control to reduce waste.
+- **Supplier Relations:** Negotiated better pricing and terms with coffee bean suppliers.
+- **Cost Optimization:** Identified areas for cost savings while maintaining product standards.
+- **Process Improvement:** Implemented new workflows to improve operational efficiency.
+
+---

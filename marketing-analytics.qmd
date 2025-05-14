@@ -8,15 +8,51 @@ listing:
     - "index desc"
 ---
 
-Below are selected projects that highlight my experience applying marketing analytics to real-world challenges. These projects reflect my ability to combine statistical tools, campaign data, and strategic thinking to inform decisions and drive results.
+Below are selected projects that highlight my experience applying marketing analytics to the day-to-day and strategic operations of a specialty coffee shop. These examples demonstrate how I use data-driven insights to improve customer engagement, optimize promotional efforts, and grow the business.
 
-Whether developing dashboards, analyzing campaign performance, or uncovering insights through SEO and web analytics, each project is rooted in turning complex marketing data into clear, actionable strategies.
+From tracking in-store promotions to analyzing social media performance and customer behavior, each project reflects my ability to turn real-world marketing data into actionable strategies that enhance both brand presence and profitability.
 
 ## What You’ll Find
 
-- **Campaign Performance Analysis:** Evaluating the effectiveness of digital marketing efforts using data.
-- **Data Visualization:** Turning raw datasets into intuitive dashboards and reports.
-- **Marketing Mix & Attribution:** Exploring how different channels contribute to success.
-- **Customer & Market Insights:** Using analytics to better understand user behavior and optimize experiences.
+- **Campaign Performance Analysis:** Measuring the impact of seasonal promotions, local ads, and social media campaigns on foot traffic and sales.
+- **Data Visualization:** Building intuitive dashboards to monitor daily performance metrics, customer trends, and marketing ROI.
+- **Channel & Offer Attribution:** Identifying which marketing channels (e.g., Instagram, Google Maps, email) and offers are driving the most customer engagement and repeat visits.
+- **Customer & Market Insights:** Using POS data, survey feedback, and web analytics to better understand buying habits, peak times, and menu preferences.
 
 ---
+
+```{r}
+library(ggplot2)
+
+data <- data.frame(
+  Channel = c("Instagram", "Google Maps", "Email Newsletter", "In-store Posters"),
+  Revenue = c(4200, 3100, 1800, 950)
+)
+
+ggplot(data, aes(x = reorder(Channel, Revenue), y = Revenue, fill = Channel)) +
+  geom_col(show.legend = FALSE) +
+  coord_flip() +
+  labs(title = "Campaign Performance by Channel",
+       x = "Marketing Channel",
+       y = "Revenue Generated ($)") +
+  theme_minimal()
+
+```
+
+```{r}
+library(ggplot2)
+
+weeks <- c("Week 1", "Week 2", "Week 3", "Week 4")
+traffic <- c(180, 230, 210, 275)
+
+data <- data.frame(Week = weeks, Customers = traffic)
+
+ggplot(data, aes(x = Week, y = Customers)) +
+  geom_line(color = "forestgreen", size = 1.2) +
+  geom_point(color = "darkgreen", size = 3) +
+  labs(title = "Weekly Foot Traffic After Instagram Promotions",
+       x = "Week",
+       y = "Customer Count") +
+  theme_minimal()
+```
+  
