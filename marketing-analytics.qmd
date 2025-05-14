@@ -22,21 +22,27 @@ From tracking in-store promotions to analyzing social media performance and cust
 ---
 
 ```{r}
+
+
 library(ggplot2)
+# Your exact data
+data <- structure(list(
+  Channel = c("Instagram", "Google Maps", "Email Newsletter", "In-store Posters"), 
+  Revenue = c(4200, 3100, 1800, 950)), 
+  class = "data.frame", row.names = c(NA, -4L))
 
-data <- data.frame(
-  Channel = c("Instagram", "Google Maps", "Email Newsletter", "In-store Posters"),
-  Revenue = c(4200, 3100, 1800, 950)
-)
-
-ggplot(data, aes(x = reorder(Channel, Revenue), y = Revenue, fill = Channel)) +
+# Plot with explicit data reference
+ggplot(data, aes(x = reorder(.data$Channel, .data$Revenue), 
+             y = .data$Revenue, 
+             fill = .data$Channel)) +
   geom_col(show.legend = FALSE) +
   coord_flip() +
   labs(title = "Campaign Performance by Channel",
        x = "Marketing Channel",
        y = "Revenue Generated ($)") +
-  theme_minimal()
-
+  theme_minimal() +
+  geom_text(aes(label = Revenue), hjust = -0.1, size = 3) +  # Add value labels
+  scale_y_continuous(expand = expansion(mult = c(0, 0.1)))    # Make space for labels
 ```
 
 ```{r}

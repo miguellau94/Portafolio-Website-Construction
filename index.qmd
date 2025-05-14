@@ -2,15 +2,14 @@
 title: "Hi, I'm Miguel Lau"
 ---
 
-::::: columns
+::: {.columns}
 ::: {.column width="30%"}
-![](https://placehold.co/530x530?text=images/profile.png){width="100%" style="border-radius: 50%;"}
+![](./images/profile.png){width="100%" style="border-radius: 50%;"}
 :::
-
 ::: {.column width="70%" style="padding-left: 3rem;"}
 I am an entrepreneur and business owner. I specialize in building community-centered experiences and leading operations that turn vision into reality. Through hands-on management, strategic marketing, and a passion for service, I’ve grown a specialty coffee shop into more than just a place to grab a drink—it's a welcoming space where people connect, relax, and feel cared for.
 :::
-:::::
+:::
 
 ## About Me
 
