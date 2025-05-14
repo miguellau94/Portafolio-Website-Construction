@@ -25,13 +25,13 @@ From tracking in-store promotions to analyzing social media performance and cust
 
 
 library(ggplot2)
-# Your exact data
+
 data <- structure(list(
   Channel = c("Instagram", "Google Maps", "Email Newsletter", "In-store Posters"), 
   Revenue = c(4200, 3100, 1800, 950)), 
   class = "data.frame", row.names = c(NA, -4L))
 
-# Plot with explicit data reference
+
 ggplot(data, aes(x = reorder(.data$Channel, .data$Revenue), 
              y = .data$Revenue, 
              fill = .data$Channel)) +
@@ -41,8 +41,8 @@ ggplot(data, aes(x = reorder(.data$Channel, .data$Revenue),
        x = "Marketing Channel",
        y = "Revenue Generated ($)") +
   theme_minimal() +
-  geom_text(aes(label = Revenue), hjust = -0.1, size = 3) +  # Add value labels
-  scale_y_continuous(expand = expansion(mult = c(0, 0.1)))    # Make space for labels
+  geom_text(aes(label = Revenue), hjust = -0.1, size = 3) +  
+  scale_y_continuous(expand = expansion(mult = c(0, 0.1)))    
 ```
 
 ```{r}

@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "marketing-analytics.html",
+    "href": "marketing-analytics.html",
+    "title": "Marketing Analytics",
+    "section": "",
+    "text": "Below are selected projects that highlight my experience applying marketing analytics to the day-to-day and strategic operations of a specialty coffee shop. These examples demonstrate how I use data-driven insights to improve customer engagement, optimize promotional efforts, and grow the business.\nFrom tracking in-store promotions to analyzing social media performance and customer behavior, each project reflects my ability to turn real-world marketing data into actionable strategies that enhance both brand presence and profitability."
+  },
+  {
+    "objectID": "marketing-analytics.html#what-youll-find",
+    "href": "marketing-analytics.html#what-youll-find",
+    "title": "Marketing Analytics",
+    "section": "What You’ll Find",
+    "text": "What You’ll Find\n\nCampaign Performance Analysis: Measuring the impact of seasonal promotions, local ads, and social media campaigns on foot traffic and sales.\nData Visualization: Building intuitive dashboards to monitor daily performance metrics, customer trends, and marketing ROI.\nChannel & Offer Attribution: Identifying which marketing channels (e.g., Instagram, Google Maps, email) and offers are driving the most customer engagement and repeat visits.\nCustomer & Market Insights: Using POS data, survey feedback, and web analytics to better understand buying habits, peak times, and menu preferences.\n\n\n\nlibrary(ggplot2)\n\ndata &lt;- structure(list(\n  Channel = c(\"Instagram\", \"Google Maps\", \"Email Newsletter\", \"In-store Posters\"), \n  Revenue = c(4200, 3100, 1800, 950)), \n  class = \"data.frame\", row.names = c(NA, -4L))\n\n\nggplot(data, aes(x = reorder(.data$Channel, .data$Revenue), \n             y = .data$Revenue, \n             fill = .data$Channel)) +\n  geom_col(show.legend = FALSE) +\n  coord_flip() +\n  labs(title = \"Campaign Performance by Channel\",\n       x = \"Marketing Channel\",\n       y = \"Revenue Generated ($)\") +\n  theme_minimal() +\n  geom_text(aes(label = Revenue), hjust = -0.1, size = 3) +  \n  scale_y_continuous(expand = expansion(mult = c(0, 0.1)))    \n\n\n\n\n\n\n\n\n\nlibrary(ggplot2)\n\nweeks &lt;- c(\"Week 1\", \"Week 2\", \"Week 3\", \"Week 4\")\ntraffic &lt;- c(180, 230, 210, 275)\n\ndata &lt;- data.frame(Week = weeks, Customers = traffic)\n\nggplot(data, aes(x = Week, y = Customers)) +\n  geom_line(color = \"forestgreen\", size = 1.2) +\n  geom_point(color = \"darkgreen\", size = 3) +\n  labs(title = \"Weekly Foot Traffic After Instagram Promotions\",\n       x = \"Week\",\n       y = \"Customer Count\") +\n  theme_minimal()\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\n`geom_line()`: Each group consists of only one observation.\nℹ Do you need to adjust the group aesthetic?"
+  }
+]
