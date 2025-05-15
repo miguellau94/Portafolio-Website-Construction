@@ -1,12 +1,12 @@
 ---
-name: First
-surname: Last
-position: "Your Role or Career Focus"
-phone: +1 (XXX) XXX-XXXX
-www: yourwebsite.com
-email: "you@example.com"
-github: your-github
-linkedin: your-linkedin
+name: Miguel
+surname: Lau
+position: "Business Owner"
+phone: +1 (626) 534-1923
+www: 
+email: "mlauzhou@gmail.com"
+github: miguellau94
+linkedin: Miguel Lau
 date: "`r format(Sys.time(), '%B %Y')`"
 output: 
   vitae::latexcv:
@@ -37,20 +37,28 @@ library(tibble)
 
 # Professional Summary
 
-Motivated and detail-oriented marketing and analytics professional with a strong background in data interpretation, campaign strategy, and digital tools. Skilled in turning insights into action and communicating value across business teams.
+Results-driven business owner and operations manager with over a decade of experience leading teams, optimizing business performance, and delivering exceptional customer service across the food service, retail, automotive, and manufacturing sectors. Proven success as the owner and manager of a specialty coffee shop, overseeing daily operations, financial planning, staff development, inventory control, and marketing initiatives. Skilled in sales and account management with a strong track record of exceeding targets and building lasting client relationships. Adept at managing multimillion-dollar inventories, streamlining workflows, and improving quality standards in high-volume environments. Known for strategic thinking, hands-on leadership, and a passion for building strong teams and efficient, customer-focused businesses.
+
 
 # Technical Skills
 
-- **Programming Languages:** R, Python, SQL, etc.  
-- **Web Technologies:** HTML, CSS/SCSS, Quarto, CMS, Google Analytics, etc.
+Business & Financial Operations: Financial Planning · Accounting · Account Management · Inventory Control · Cost Analysis
+
+
+Leadership & Management: Team Leadership · Team Management · Staff Training & Development · Operations Management · Quality Assurance · Production Oversight
+
+
+Sales & Customer Experience: Sales Management · Customer Service · Relationship Building · Deal Negotiation
+
+
+Marketing & Branding: Marketing Strategy · Social Media Marketing · Brand Development · Promotional Campaigns
 
 # Education
 
 ```{r}
 tribble(
-  ~ Degree, ~ Year, ~ College, ~ Institution,
-  "Master of [Your Field]", "20XX – Expected Graduation 20XX", "[Your School or Department]", "[Your University]",
-  "Bachelor of [Your Field]", "20XX – 20XX", "[Your School or Department]", "[Your University]"
+  ~Degree, ~Year, ~College, ~Institution,
+  "Bachelor of Science in Business Administration & Marketing Management", "2021 – 2025", "College of Business Administration", "California Polytechnic State University, Pomona"
 ) %>%
   detailed_entries(Degree, Year, College, Institution)
 ```
@@ -59,26 +67,13 @@ tribble(
 
 ```{r}
 tribble(
-  ~ Years, ~ Company, ~ Duties, ~ Title,
-
-  "Month YYYY – Month YYYY", "Company or Organization Name",
-  list(
-    "Summarize responsibility or achievement \\#1.",
-    "Highlight tools, technologies, or methods used.",
-    "Mention metrics, goals, or impact if possible.",
-    "Add communication or leadership responsibilities here."
-  ),
-  "Job Title",
-
-  "Month YYYY – Month YYYY", "Another Company or Team",
-  list(
-    "Led a project or team focused on [insert focus].",
-    "Collaborated cross-functionally with [departments/roles].",
-    "Managed content, campaigns, or dashboards.",
-    "Contributed to strategic planning or reporting."
-  ),
-  "Job Title"
-
+  ~Years, ~Company, ~Title, ~Duties,
+  
+  "September 2022 – Present", "Margin Cafe Coffee Roasters", "Manager / Owner",
+  "As the owner of Margin Café, I am responsible for overseeing all aspects of the café’s operations, from daily management to long-term business strategy. I handle inventory management, supplier relationships, and financial planning to ensure profitability while maintaining high standards of quality and customer service. I lead a team of staff, providing training, setting performance goals, and fostering a positive work environment. I develop and update the menu, ensuring it aligns with customer preferences and market trends. Additionally, I handle marketing and promotions to attract new customers, build brand loyalty, and increase sales. I focus on creating a welcoming atmosphere and ensuring that every guest has an exceptional dining experience.",
+  
+  "March 2021 – May 2022", "T&J Garden Supply", "Assistant Manager",
+  "In my role as Assistant Manager at a T&J Garden Supply store, I was responsible for overseeing the day-to-day operations of the store, with a focus on managing an inventory valued at over $500k. I ensured stock levels were maintained, conducted regular inventory audits, and handled ordering and restocking to meet demand. I also assisted in managing and training staff to provide excellent customer service and ensured the store was organized and visually appealing. Additionally, I addressed customer inquiries, resolved issues, and supported the Store Manager in achieving operational goals."
 ) %>%
   detailed_entries(
     what = Title,
