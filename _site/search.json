@@ -25,7 +25,7 @@
     "href": "resume/Resume.html",
     "title": "Professional Summary",
     "section": "",
-    "text": "Professional Summary\nMotivated and detail-oriented marketing and analytics professional with a strong background in data interpretation, campaign strategy, and digital tools. Skilled in turning insights into action and communicating value across business teams.\n\n\nTechnical Skills\n\nProgramming Languages: R, Python, SQL, etc.\n\nWeb Technologies: HTML, CSS/SCSS, Quarto, CMS, Google Analytics, etc.\n\n\n\nEducation\n\n\n# A tibble: 2 × 5\n  what                     when                            with      where why  \n  &lt;chr&gt;                    &lt;chr&gt;                           &lt;chr&gt;     &lt;chr&gt; &lt;lis&gt;\n1 Master of [Your Field]   20XX – Expected Graduation 20XX [Your Sc… [You… &lt;chr&gt;\n2 Bachelor of [Your Field] 20XX – 20XX                     [Your Sc… [You… &lt;chr&gt;\n\n\n\n\nWork Experience\n\n\n# A tibble: 2 × 5\n  what      when                    with                         where why   \n  &lt;chr&gt;     &lt;chr&gt;                   &lt;chr&gt;                        &lt;chr&gt; &lt;list&gt;\n1 Job Title Month YYYY – Month YYYY Company or Organization Name &lt;NA&gt;  &lt;list&gt;\n2 Job Title Month YYYY – Month YYYY Another Company or Team      &lt;NA&gt;  &lt;list&gt;"
+    "text": "Professional Summary\nResults-driven business owner and operations manager with over a decade of experience leading teams, optimizing business performance, and delivering exceptional customer service across the food service, retail, automotive, and manufacturing sectors. Proven success as the owner and manager of a specialty coffee shop, overseeing daily operations, financial planning, staff development, inventory control, and marketing initiatives. Skilled in sales and account management with a strong track record of exceeding targets and building lasting client relationships. Adept at managing multimillion-dollar inventories, streamlining workflows, and improving quality standards in high-volume environments. Known for strategic thinking, hands-on leadership, and a passion for building strong teams and efficient, customer-focused businesses.\n\n\nTechnical Skills\nBusiness & Financial Operations: Financial Planning · Accounting · Account Management · Inventory Control · Cost Analysis\nLeadership & Management: Team Leadership · Team Management · Staff Training & Development · Operations Management · Quality Assurance · Production Oversight\nSales & Customer Experience: Sales Management · Customer Service · Relationship Building · Deal Negotiation\nMarketing & Branding: Marketing Strategy · Social Media Marketing · Brand Development · Promotional Campaigns\n\n\nEducation\n\n\n# A tibble: 1 × 5\n  what                                                   when  with  where why  \n  &lt;chr&gt;                                                  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;lis&gt;\n1 Bachelor of Science in Business Administration & Mark… 2021… Coll… Cali… &lt;chr&gt;\n\n\n\n\nWork Experience\n\n\n# A tibble: 2 × 5\n  what              when                     with                    where why  \n  &lt;chr&gt;             &lt;chr&gt;                    &lt;chr&gt;                   &lt;chr&gt; &lt;lis&gt;\n1 Manager / Owner   September 2022 – Present Margin Cafe Coffee Roa… &lt;NA&gt;  &lt;chr&gt;\n2 Assistant Manager March 2021 – May 2022    T&J Garden Supply       &lt;NA&gt;  &lt;chr&gt;"
   },
   {
     "objectID": "listings/05-social-media-engagement.html",
@@ -103,5 +103,26 @@
     "title": "Strategic Marketing",
     "section": "Strategy 5: Operational Efficiency & Cost Management",
     "text": "Strategy 5: Operational Efficiency & Cost Management\nTo ensure profitability and sustainability, I led efforts to streamline operations at Margin Café Coffee Roasters. This included refining inventory management, optimizing supplier relationships, and improving cost efficiency without compromising product quality.\nSkills Demonstrated:\n\nInventory Management: Developed strategies for efficient inventory control to reduce waste.\nSupplier Relations: Negotiated better pricing and terms with coffee bean suppliers.\nCost Optimization: Identified areas for cost savings while maintaining product standards.\nProcess Improvement: Implemented new workflows to improve operational efficiency."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, I’m Miguel Lau",
+    "section": "",
+    "text": "I am an entrepreneur and business owner. I specialize in building community-centered experiences and leading operations that turn vision into reality. Through hands-on management, strategic marketing, and a passion for service, I’ve grown a specialty coffee shop into more than just a place to grab a drink—it’s a welcoming space where people connect, relax, and feel cared for."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Hi, I’m Miguel Lau",
+    "section": "About Me",
+    "text": "About Me\nHi, I’m the proud co-owner of Margin Cafe Coffee Roasters, where I combine my love for coffee, community, and entrepreneurship. With a strong focus on quality and customer experience, I’ve built a space where people can enjoy great coffee and feel genuinely welcome.\nI hold a degree in Business Administration and Marketing Management from Cal Poly Pomona, which has equipped me with the skills to grow and lead a successful business—from strategy and operations to branding and customer engagement.\nOutside of running my business, I’m passionate about cars, road trips, and exploring nature—whether that means winding drives through scenic routes or discovering a hidden hiking trail. These experiences fuel my creativity and give me a fresh perspective to bring back to the café.\nAt my core, I’m someone who cares deeply about people. Whether it’s crafting the perfect cup of coffee, offering a warm conversation, or leading a team, I find purpose in creating environments where others feel supported, seen, and taken care of."
+  },
+  {
+    "objectID": "index.html#lets-connect",
+    "href": "index.html#lets-connect",
+    "title": "Hi, I’m Miguel Lau",
+    "section": "Let’s Connect",
+    "text": "Let’s Connect\nYou can connect on LinkedIn.\n\nWelcome to my portfolio."
   }
 ]
